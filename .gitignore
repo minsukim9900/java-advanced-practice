@@ -1,0 +1,75 @@
+############################
+# Java / JVM
+############################
+*.class
+*.log
+hs_err_pid*
+
+############################
+# Build Output
+############################
+/target/
+/build/
+/out/
+
+############################
+# Maven
+############################
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+/.mvn/timing.properties
+
+############################
+# Gradle
+############################
+.gradle/
+!gradle-wrapper.jar
+
+############################
+# IDE - IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+############################
+# IDE - Eclipse
+############################
+.project
+.classpath
+.settings/
+
+############################
+# IDE - VS Code
+############################
+.vscode/
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Logs & Temp
+############################
+*.log
+*.tmp
+*.swp
+*.swo
+
+############################
+# Environment & Secrets
+############################
+.env
+*.env
+application-*.yml
+application-*.properties
+
+############################
+# Test / Coverage
+############################
+/coverage/
+/jacoco.exec
