@@ -2,6 +2,6 @@ package thread.bounded;
 
 public interface BoundedQueue {
 
-    void put(String date);
+    void put(String data);
     String take();
 }
